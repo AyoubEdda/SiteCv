@@ -7,16 +7,16 @@ body {
   background: url("images/foret.jpg") fixed no-repeat;
   background-size: cover;
   margin: 0;
-
-
-
+  background-blend-mode: soft-light;
+  background-color: #333;
+color: #fff;
 
 }
 
 a
 {
 	text-decoration:none;
-  color: black;
+  color: #fff;
 }
 
 
@@ -24,17 +24,19 @@ a
  display:flex;
  flex-direction: column;
  text-align: center;
- color: black;
+ color: #fff;
  width: 100%;
  align-items: center;
 
 }
 
+
+
 .nav {
   width: 100%;
-  height: 3%;
+  height: 7%;
   color: black;
-  background-color: #fff;
+
 
 
 }
@@ -45,15 +47,17 @@ a
 	display:inline-block;
 	margin: 0 30px;
   padding-left: 70px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
 }
 .nom {
   width: 100%; ;
   height: 320px;
-  color: black;
   text-align: center;
   font-size: 18px;
   padding-top: 5%;
-
+font-family: 'Dosis', sans-serif;
+  
 }
 
 .nom h2 {
@@ -62,36 +66,92 @@ a
   font-size: 50px;
 }
 .nom p {
- padding-top: 8%
+ padding-top: 8%;
+ font-family: 'Dosis', sans-serif;
 }
 .moi {
   width: 90%;
   height: 300px;
-  background-color: rgb(192, 195, 198);
   display: flex;
   flex-direction: column;
   text-align: center;
-  border-radius: 20px 20px;
+ 
 }
-.parcours {
-  
-   border-radius: 0 0 20px 20px ;
-  background-color: #fff;
+.parcours { 
   text-align: center;
-  height: 300px;
-
+  height: 600px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  
 }
 
-.texte {
-  text-align: left;
+.parcours h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+
+.grosBlock {
+ display: flex;
+ width: 100%;
+ 
+}
+
+.block1 {
+ flex-direction: column;
+  width: 50%;
+  margin-left: 17%;
+}
+
+.partie1{
+  width: 100%;
+margin-top: 6%;
+}
+
+.partie1 img {
   width: 40%;
-  margin-left: 40%;
+  height: 100%;
 }
+.partie2 {
+  width: 100%;
+  text-align: justify;
+  margin-top: 10%;
+ font-family: 'Indie Flower', cursive;
+}
+.block2 {
+   margin-left: 5%;
+ flex-direction: column;
+  width: 50%;
+}
+.partie3 {
+  width: 70%;
+  text-align: justify;
+  font-family: 'Indie Flower', cursive;
+}
+
+.partie4 {
+  width: 50%;
+
+}
+.partie4 img {
+  width: 90%;
+  margin-left: 15%;
+  margin-top: 8%;
+}
+
+
 
 .projet{
   height: 400px;
   width: 100%;
-margin-right: 6%;
+margin-right: 5%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.projet h2 {
+  margin-bottom: 4%;
+  margin-left: 9%;
 }
 
 .projet img {
@@ -99,17 +159,17 @@ margin-right: 6%;
 }
 .donuts {
   width: 20%;
-  height: 60%;
+  height: 70%;
 }
 
 .integration4 {
   width: 16%;
-  height: 60%;
+  height: 70%;
 }
 
 .integration5 {
   width: 16%;
-  height: 60%;
+  height: 70%;
 
 }
 
@@ -119,6 +179,10 @@ margin-right: 6%;
   height: 360px;
   width: 100%;
   text-align: center;
+}
+.competence h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 29px;
 }
 
 .ligne1{
@@ -146,10 +210,11 @@ margin-left: 6%;
   display: flex;
   flex-direction: row;
   align-items: center;
+
   height: 200px;
 
   width: 100%;
-  t
+
 }
 .git {
   width: 55%;
@@ -158,18 +223,28 @@ margin-left: 6%;
 .git img{
   height: 70%;
   width: 57%;
+  margin-left: 25%;
 }
 
 .mail {
-
+font-size: 18px;
+  font-family: 'Dosis', sans-serif;
 }
 .mail h2 {
   margin-top: 0;
   margin-bottom: 1%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
+.linkedin {
+
+  width: 50%;
+  text-align: center;
+
+}
 .linkedin img{
    height: 50%;
   width: 17%;
+ margin-right: 10%;
 
 }
