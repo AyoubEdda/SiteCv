@@ -221,19 +221,29 @@ margin-left: 6%;
 }
 
 .git img{
-  height: 70%;
-  width: 57%;
-  margin-left: 25%;
+  height: 80%;
+  width: 80%;
+  margin-left: 50%;
 }
 
 .mail {
 font-size: 18px;
   font-family: 'Dosis', sans-serif;
+  margin-left: 18%;
 }
 .mail h2 {
   margin-top: 0;
   margin-bottom: 1%;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.twitter {
+  height: 40%;
+  width: 30%;
+}
+
+.twitter img {
+  height: 80%;
 }
 
 .linkedin {
@@ -245,6 +255,6 @@ font-size: 18px;
 .linkedin img{
    height: 50%;
   width: 17%;
- margin-right: 10%;
+ margin-right: 80%;
 
 }
